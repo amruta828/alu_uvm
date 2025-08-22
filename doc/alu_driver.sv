@@ -136,7 +136,7 @@ class alu_driver extends uvm_driver#(alu_sequence_item);
                 `uvm_info("DRV",$sformatf("DRIVER DRIVING VALUES TO INTERFACE,INP_VALID =%d,CMD=%d,CE=%d,CIN=%d,MODE=%d,OPA=%d,OPB=%d",req.INP_VALID,req.CMD,req.CE,req.CIN,req.MODE,req.OPA,req.OPB),UVM_NONE);
               end
               req.print();
-      dri_cov_port.write(req);
+     
 
       end
 end
